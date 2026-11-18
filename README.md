@@ -59,13 +59,13 @@ These are the **raw sensor signals**, separate from the combined `ADC_OUT` signa
 
 The following example configures Compensator with the **AFC Klipper add-on** on an installation that supports the `COMP` buffer type:
 
-```ini
+```python
 [AFC_buffer COMP_buffer1]
 type: COMP
 adc_pin: Turtle_1:PC4
 neutral_point: 0.5
-max_tension: 0.1
-max_compression: 0.9
+low_point: 0.1
+high_point: 0.9
 reversed: false
 ```
 
