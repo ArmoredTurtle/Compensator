@@ -108,3 +108,4 @@ If the reported compressed and expanded states are backwards, check the magnet o
 - Individual Hall outputs remain available for custom control systems, debugging, and experimentation.
 - Compensator measures the position of the moving magnet; it does not directly measure filament force or tension as a buffer **can not** do this.
 - The available travel range and signal direction depend on the mechanical installation and magnet placement.
+- The TI DRV5056A4EDBZRQ1 Hall sensors on this PCB, in their given orientation require a strong magnetic field. Use N52 rated magnets for best results.  
