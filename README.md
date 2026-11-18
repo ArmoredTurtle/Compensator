@@ -66,7 +66,10 @@ adc_pin: Turtle_1:PC4
 neutral_point: 0.5
 low_point: 0.1
 high_point: 0.9
+deadband: 0.25
 reversed: false
+adc_min_val: 0.0
+adc_max_val: 1.0
 ```
 
 - `adc_pin`: ADC-capable MCU input wired to `ADC_OUT`; replace `Turtle_1:PC4` with your own pin.
